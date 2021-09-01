@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Cairo",Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+body{
+    background: rgb(34, 34, 34);
+}
+
+.light-mode{
+    background: #fff;
+    color:rgb(36, 36, 36)
+}
+
+.navbar{
+    margin: auto;
+    width: 82%;
+    padding: 10px;
+}
+
+.nav-container{
+    color:#fff;
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+
+.menu-itms{
+    display: flex;
+    
+}
+
+ul {
+    list-style-type: none;
+    float: left;
+    
+}
+
+
+
+.itm1{
+    margin-right: 1rem;
+}
+.itm1:hover{
+    cursor: pointer;
+    color: rgb(216, 92, 20);
+
+}
+
+.light-itm{
+    color:rgb(36, 36, 36)
+}
+.light-itm:hover{
+    color:blue
+}
+
+
+
+.sun{
+    float: right;
+}
+
+.sun:hover{
+    cursor: pointer;
+    color: rgb(216, 92, 20);
+    float: right;
+    
+}
+
+.moon{
+    color:rgb(36, 36, 36);
+    float: right;
+}
+
+.moon:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.other-itms{
+    margin-top: 11px;
+}
