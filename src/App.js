@@ -9,7 +9,12 @@ function App() {
     <ToggleProvider>
     <div className="App">
       <Navbar/>
-      
+      <div className="main-container">
+
+        <div className ="main-itm"></div>
+
+
+      </div>
     </div>
     </ToggleProvider>
   );

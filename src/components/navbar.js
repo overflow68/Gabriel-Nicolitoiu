@@ -6,8 +6,10 @@ import { useEffect } from 'react'
 
 
 function Navbar() {
-    const {toggleMode,darkMode} = useToggle()
+    const {toggleMode,darkMode,returnClass,returnBgClass} = useToggle()
 
+
+    
     useEffect(()=>{
         darkMode === false? document.body.classList.add('light-mode'):document.body.classList.remove('light-mode') 
 
@@ -17,9 +19,31 @@ function Navbar() {
         <div className="nav-container">
 
         <ul className="menu-itms">
-        {darkMode ===true?<li className="itm1"><span>Projetos</span></li>:<li className="itm1 light-itm"><span>Projetos</span></li>}
-        {darkMode ===true?<li className="itm1"><span>Sobre</span></li>:<li className="itm1 light-itm"><span>Sobre</span></li>}
-        {darkMode ===true?<li className="itm1"><span>Contacto</span></li>:<li className="itm1 light-itm"><span>Contacto</span></li>}
+        <li className={returnClass("dropdown")}><span>Projetos</span>
+        <div className={returnBgClass("dropdown-content")}>
+          <div className={returnBgClass("dropdown-item")}>Sistema de Login</div>
+          <div className={returnBgClass("dropdown-item")}>Carrinho de compras</div>
+          <div className={returnBgClass("dropdown-item")}>Cv-maker</div>
+          <div className={returnBgClass("dropdown-item")}>Batalha naval</div>
+          <div className={returnBgClass("dropdown-item")}>Speed-typing</div>
+          <div className={returnBgClass("dropdown-item")}>Meteorologia</div>
+          <div className={returnBgClass("dropdown-item")}>Jogo de memória</div>
+        </div>
+        </li>
+
+
+
+
+
+        <li className={returnClass("dropdown")}><span>Sobre</span>
+        <div className={returnBgClass("dropdown-content")}>
+          <div className={returnBgClass("dropdown-item")}>Quem sou</div>
+          <div className={returnBgClass("dropdown-item")}>Habilitações</div>
+        </div>
+        </li>
+
+        <li className={returnClass("dropdown")}><span>Contacto</span></li>
+       
         </ul>
 
         <div className = "other-itms">

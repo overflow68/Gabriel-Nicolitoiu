@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 
-
+/*General content*/
 *{
     margin: 0;
     padding: 0;
@@ -13,13 +13,12 @@ html{
 
 body{
     background: rgb(34, 34, 34);
+    color:#fff;
 }
 
-.light-mode{
-    background: #fff;
-    color:rgb(36, 36, 36)
-}
 
+
+/* Navbar content*/
 .navbar{
     margin: auto;
     width: 82%;
@@ -27,7 +26,6 @@ body{
 }
 
 .nav-container{
-    color:#fff;
     display: flex;
     width:100%;
     justify-content: space-between;
@@ -46,38 +44,70 @@ ul {
 
 
 
-.itm1{
+.dropdown{
     margin-right: 1rem;
 }
-.itm1:hover{
+
+.dropdown:hover{
     cursor: pointer;
     color: rgb(216, 92, 20);
 
 }
 
+.dropdown:hover .dropdown-content{
+display: block;
+}
+
+.other-itms{
+    float:left
+}
+
+
+
+  .dropdown-content {
+    border: 1px solid rgb(56, 56, 56);
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    background: rgb(34, 34, 34);
+    min-width: 160px;
+    font-size: 0.7rem;
+  }
+  .dropdown-item{
+      padding: 3px;
+      color:#fff
+  }
+  .dropdown-item:hover{
+      color:rgb(216, 92, 20);
+
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+/*Theme content*/
 .light-itm{
-    color:rgb(36, 36, 36)
+    margin-right: 1rem;
+    color:rgb(36, 36, 36);
+    
 }
 .light-itm:hover{
     color:blue
 }
 
 
-
-.sun{
-    float: right;
-}
-
 .sun:hover{
     cursor: pointer;
     color: rgb(216, 92, 20);
-    float: right;
+    
     
 }
 
 .moon{
     color:rgb(36, 36, 36);
-    float: right;
+    
 }
 
 .moon:hover{
@@ -85,6 +115,12 @@ ul {
     color: blue;
 }
 
-.other-itms{
-    margin-top: 11px;
+.light-mode{
+    border-radius: 5px;
+    background: #fff;
+    color:rgb(36, 36, 36)
+}
+
+.light-mode:hover{
+    color:blue;
 }
