@@ -21,13 +21,13 @@ function Navbar() {
         <ul className="menu-itms">
         <li className={returnClass("dropdown")}><span>Projetos</span>
         <div className={returnBgClass("dropdown-content")}>
-          <div className={returnBgClass("dropdown-item")}>Sistema de Login</div>
-          <div className={returnBgClass("dropdown-item")}>Carrinho de compras</div>
-          <div className={returnBgClass("dropdown-item")}>Cv-maker</div>
-          <div className={returnBgClass("dropdown-item")}>Batalha naval</div>
-          <div className={returnBgClass("dropdown-item")}>Speed-typing</div>
-          <div className={returnBgClass("dropdown-item")}>Meteorologia</div>
-          <div className={returnBgClass("dropdown-item")}>Jogo de memória</div>
+          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/My-Gram"><div className={returnClass("dropdown-item")}>Sistema de Login</div></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/shopping-cart"><div className={returnClass("dropdown-item")}>Carrinho de compras</div></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/CV-app"><div className={returnClass("dropdown-item")}>Cv-maker</div></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/Battleship"><div className={returnClass("dropdown-item")}>Batalha naval</div></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/speed-typing"><div className={returnClass("dropdown-item")}>Speed-typing</div></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/weather_app"><div className={returnClass("dropdown-item")}>Meteorologia</div></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/memory-game"><div className={returnClass("dropdown-item")}>Jogo de memória</div></a>
         </div>
         </li>
 
@@ -37,8 +37,8 @@ function Navbar() {
 
         <li className={returnClass("dropdown")}><span>Sobre</span>
         <div className={returnBgClass("dropdown-content")}>
-          <div className={returnBgClass("dropdown-item")}>Quem sou</div>
-          <div className={returnBgClass("dropdown-item")}>Habilitações</div>
+          <div className={returnClass("dropdown-item")}>Quem sou</div>
+          <div className={returnClass("dropdown-item")}>Habilitações</div>
         </div>
         </li>
 
