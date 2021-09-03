@@ -6,7 +6,7 @@ import { useEffect } from 'react'
 
 
 function Navbar() {
-    const {toggleMode,darkMode,returnClass,returnBgClass} = useToggle()
+    const {toggleMode,darkMode,returnClass} = useToggle()
 
 
     
@@ -19,15 +19,15 @@ function Navbar() {
         <div className="nav-container">
 
         <ul className="menu-itms">
-        <li className={returnClass("dropdown")}><span>Projetos</span>
-        <div className={returnBgClass("dropdown-content")}>
-          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/My-Gram"><div className={returnClass("dropdown-item")}>Sistema de Login</div></a>
-          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/shopping-cart"><div className={returnClass("dropdown-item")}>Carrinho de compras</div></a>
-          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/CV-app"><div className={returnClass("dropdown-item")}>Cv-maker</div></a>
-          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/Battleship"><div className={returnClass("dropdown-item")}>Batalha naval</div></a>
-          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/speed-typing"><div className={returnClass("dropdown-item")}>Speed-typing</div></a>
-          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/weather_app"><div className={returnClass("dropdown-item")}>Meteorologia</div></a>
-          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/memory-game"><div className={returnClass("dropdown-item")}>Jogo de memória</div></a>
+        <li className={returnClass("dropdown","light-itm")}><span>Projetos</span>
+        <div className={returnClass("dropdown-content","light-mode")}>
+          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/My-Gram"><div className={returnClass("dropdown-item","light-itm")}>Sistema de Login</div></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/shopping-cart"><div className={returnClass("dropdown-item","light-itm")}>Carrinho de compras</div></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/CV-app"><div className={returnClass("dropdown-item","light-itm")}>Cv-maker</div></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/Battleship"><div className={returnClass("dropdown-item","light-itm")}>Batalha naval</div></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/speed-typing"><div className={returnClass("dropdown-item","light-itm")}>Speed-typing</div></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/weather_app"><div className={returnClass("dropdown-item","light-itm")}>Meteorologia</div></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://overflow68.github.io/memory-game"><div className={returnClass("dropdown-item","light-itm")}>Jogo de memória</div></a>
         </div>
         </li>
 
@@ -35,14 +35,14 @@ function Navbar() {
 
 
 
-        <li className={returnClass("dropdown")}><span>Sobre</span>
-        <div className={returnBgClass("dropdown-content")}>
-          <div className={returnClass("dropdown-item")}>Quem sou</div>
-          <div className={returnClass("dropdown-item")}>Habilitações</div>
+        <li className={returnClass("dropdown","light-itm")}><span>Sobre</span>
+        <div className={returnClass("dropdown-content","light-mode")}>
+          <div className={returnClass("dropdown-item","light-itm")}>Quem sou</div>
+          <div className={returnClass("dropdown-item","light-itm")}>Habilitações</div>
         </div>
         </li>
 
-        <li className={returnClass("dropdown")}><span>Contacto</span></li>
+        <li className={returnClass("dropdown","light-itm")}><span>Contacto</span></li>
        
         </ul>
 

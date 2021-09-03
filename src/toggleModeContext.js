@@ -10,16 +10,16 @@ export function useToggle(){
 export function ToggleProvider({children}){
     const [darkMode, setMode]=useState(true)
 
-    const returnClass = (currentClass) =>{
+    const returnClass = (currentClass,lightClass) =>{
       let className = "";
-      (darkMode === true? className = currentClass : className = currentClass + " light-itm") 
+      (darkMode === true? className = currentClass : className = currentClass + " " + lightClass) 
 
       return className
     }
 
-    const returnBgClass = (currentClass) =>{
+    const returnClassExtra = (currentClass,darkClass,lightClass) =>{
       let className = "";
-      (darkMode === true? className = currentClass : className = currentClass + " light-mode") 
+      (darkMode === true? className = currentClass + " " + darkClass : className = currentClass + " " + lightClass) 
 
       return className
     }
@@ -33,7 +33,7 @@ export function ToggleProvider({children}){
       toggleMode,
       darkMode,
       returnClass,
-      returnBgClass
+      returnClassExtra
     }
     return (
         <ToggleModeContext.Provider value={value}>

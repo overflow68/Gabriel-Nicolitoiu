@@ -29,6 +29,36 @@ a{
     
 }
 
+.item-container{
+    width: 100%;
+    height: 700px;
+    
+    border-top:1px solid #fff;
+}
+
+.small-item{
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.item-color1{
+    background: rgb(41, 50, 51);
+}
+.item-color2{
+    background: rgb(51, 40, 33)
+    
+}
+.item-color3{
+    background:rgb(45, 51, 50);
+}
+.item-color4{
+    background:rgb(33, 33, 49);
+}
+
+
+
+
 .img-cont{
     width: 100%;
     height: 400px;
@@ -156,3 +186,17 @@ display: block;
     color:rgb(36, 36, 36)
 }
 
+
+.light-color1{
+    background:rgb(204, 252, 255);
+}
+.light-color2{
+    background: rgb(255, 227, 211);
+    
+}
+.light-color3{
+    background:rgb(225, 254, 250);
+}
+.light-color4{
+    background:rgb(232, 232, 252);
+}
