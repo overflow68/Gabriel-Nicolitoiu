@@ -9,13 +9,14 @@ function Navbar() {
     const {toggleMode,darkMode,returnClass} = useToggle()
 
 
-    
     useEffect(()=>{
+      
+      
         darkMode === false? document.body.classList.add('light-mode'):document.body.classList.remove('light-mode') 
 
     }, [darkMode])
   return (
-    <div className="navbar">
+    <div className={returnClass("navbar","light-header")}>
         <div className="nav-container">
 
         <ul className="menu-itms">
