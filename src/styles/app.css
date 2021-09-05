@@ -29,10 +29,28 @@ body{
     background: rgb(34, 34, 34);
     color:#fff;
     border-width: thin;
+    text-decoration: none;
 }
 
-p{
-color :rgb(128, 128, 128);
+#sobre{
+    flex-direction: row-reverse;
+}
+
+.text{
+color :rgb(194, 194, 194);
+}
+
+.text-format1{
+    text-align: left;
+    
+    width: 100%;
+    text-align: left;
+}
+
+.sub-text-format{
+    max-width: 400px;
+    float: left;
+    margin-left: 100px;
 }
 
 a{
@@ -60,6 +78,13 @@ a{
     width: 100%;
     height: 700px;
     border-top:1px solid #fff;
+}
+
+.data-cont{
+    display: flex;
+    height: 80%;
+    text-align: center;
+    margin-top: 130px;
 }
 
 .small-item{
@@ -91,15 +116,28 @@ a{
 .img-cont{
     width: 100%;
     height: 400px;
+    
+}
+
+.body-img{
+    width: 100%;
+    max-height: 400px;
+    
 }
 
 .main-img{
-
 width: 100%;
 height: 100%;
 object-fit: cover;
 
 }
+
+.reg-img{
+    min-width:450px;
+    width: 100%;
+    object-fit: cover;
+    position:relative;
+    }
 
 
 
@@ -156,10 +194,41 @@ display: block;
     
 }
 
-@media (max-width:340px){
-    .other-items{
-        display: none;
+@media all and (max-width:800px){
+    .data-cont{
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin-top: 0px;
+        
     }
+    .reg-img{
+        max-width: 320px;
+        min-width:300px;
+        width: 100%;
+        object-fit: cover;
+        margin: 0 auto;
+        }
+
+        .sub-text-format{
+            max-width: 400px;
+            margin-left: 20px;
+            margin: 0 auto;
+            float: none;
+        }
+        .text-format1{
+            height: 300px;
+            width: 100%;
+            text-align: center;
+            margin: 0 auto ;
+        }
+
+        .body-img{
+            width: 100%;
+            max-height: 400px;
+            text-align: center;
+        }
 }
 
 
@@ -221,6 +290,10 @@ display: block;
 .moon:hover{
     cursor: pointer;
     color: blue;
+}
+
+.light-text{
+    color: rgb(71, 71, 71);
 }
 
 .light-mode{

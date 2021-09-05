@@ -38,7 +38,7 @@ function Navbar() {
 
         <li className={returnClass("dropdown","light-itm")}><span>Sobre</span>
         <div className={returnClass("dropdown-content","light-mode")}>
-          <div className={returnClass("dropdown-item","light-itm")}>Quem sou</div>
+          <a href="#sobre"><div className={returnClass("dropdown-item","light-itm")}> Sobre mim</div></a>
           <div className={returnClass("dropdown-item","light-itm")}>Habilitações</div>
         </div>
         </li>
