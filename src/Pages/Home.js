@@ -3,7 +3,7 @@ import Navbar from "../components/navbar";
 import mainpic from "../images/main.png";
 import { useToggle } from "../toggleModeContext.js";
 import robot from "../images/robot.png";
-import computer from "../images/icp.png";
+import computer from "../images/icp1.png";
 import group from "../images/group.png";
 import doge from "../images/doge.png";
 import pc from "../images/pc.png";
