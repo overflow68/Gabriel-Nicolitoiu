@@ -129,7 +129,6 @@ function Navbar() {
       <div className={showModal ? "darkBg active": "darkBg"} onClick={toggleModal}></div>
       <div className={showModal ? "contact-info active": "contact-info"} onClick={toggleModal}>
         <div>E-mail: nicolitoiu.gabriel23@gmail.com</div>
-        <div>Telemóvel: 961192877</div>
         <div>Github: overflow68</div>
       </div>
     </div>

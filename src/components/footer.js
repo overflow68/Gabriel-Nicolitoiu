@@ -10,7 +10,7 @@ const { returnClass } = useToggle()
         <div className={returnClass("footer contacto", "light-border-top")}>
 
             <div><a  href="https://github.com/overflow68"><AiFillGithub size="40" className={returnClass("sun","moon")}/></a></div>
-            <div>nicolitoiu.gabriel26@gmail.com</div>
+            <div>Copyright © 2021 overflow68</div>
 
         </div>
     );
