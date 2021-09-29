@@ -62,7 +62,7 @@ const projects = [
         nome: "Carrinho de compras",
         foto: shop,
         description: "Template de um website de venda de artigos de moda.",
-        link: "https://overflow68.github.io/Shopping-cart"
+        link: "https://overflow68.github.io/shopping-cart"
 
     },
 

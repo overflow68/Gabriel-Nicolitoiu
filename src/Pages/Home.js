@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/navbar";
-import mainpic from "../images/whitebg.jpg";
+import mainpic from "../images/masterbg.png";
 import { useToggle } from "../toggleModeContext.js";
 import Projects from "../components/Projects.js";
 import Footer from "../components/footer.js";
