@@ -509,3 +509,7 @@ display: block;
     background:rgb(232, 232, 252);
     border-bottom: 1px solid rgb(209, 209, 209);
 }
+
+.black{
+color: black;
+}
