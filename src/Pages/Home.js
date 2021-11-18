@@ -19,9 +19,10 @@ function Home() {
     <div className="home">
       <Navbar />
       <div className="main-container">
-        <div className="img-cont">
-          <img className="main-img" alt="" src={mainpic}></img>
-        </div>
+        <div className="space"></div>
+        <div className="earth">
+  <div></div>
+</div>
         <div className="small-item">
           <h2>Bem-vindo,</h2>
           <p className={returnClass("text", "light-text")}>

@@ -6,7 +6,7 @@ import calculadora from "../images/calculadora.png"
 import myGram from "../images/my-gram.png"
 import speed from "../images/speed.png"
 import shop from "../images/shop.png"
-
+import collectibles from "../images/collectibles.png"
 const projects = [
 
     {
@@ -63,6 +63,13 @@ const projects = [
         foto: shop,
         description: "Template de um website de venda de artigos de moda.",
         link: "https://overflow68.github.io/shopping-cart"
+
+    },
+    {
+        nome: "Colecionador de cartas",
+        foto: collectibles,
+        description: "Jogo de cartas colecionáveis.",
+        link: "https://overflow68.github.io/collectibles"
 
     },
 
