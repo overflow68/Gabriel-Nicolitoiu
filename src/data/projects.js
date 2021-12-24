@@ -7,6 +7,7 @@ import myGram from "../images/my-gram.png"
 import speed from "../images/speed.png"
 import shop from "../images/shop.png"
 import collectibles from "../images/collectibles.png"
+import buddies from "../images/buddies.png"
 const projects = [
 
     {
@@ -70,6 +71,13 @@ const projects = [
         foto: collectibles,
         description: "Jogo de cartas colecionáveis.",
         link: "https://overflow68.github.io/collectibles"
+
+    },
+    {
+        nome: "General Chat",
+        foto: buddies,
+        description: "Chat geral em tempo real.",
+        link: "https://overflow68.github.io/Buddies"
 
     },
 
