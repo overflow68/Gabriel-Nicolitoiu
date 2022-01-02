@@ -42,7 +42,7 @@ const projects = [
         nome: "Calculadora",
         foto: calculadora,
         description: "Calculadora básica que cobre todas as operações.",
-        link: "https://overflow68.github.io/Calculator"
+        link: "https://overflow68.github.io/Calculator2"
 
     },
     {
