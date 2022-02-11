@@ -3,7 +3,6 @@ import cv from "../images/cv-app.png"
 import cardGame from "../images/card-game.png"
 import battleship from "../images/battleship.png"
 import calculadora from "../images/calculadora.png"
-import myGram from "../images/my-gram.png"
 import speed from "../images/speed.png"
 import shop from "../images/shop.png"
 import collectibles from "../images/collectibles.png"
@@ -20,7 +19,7 @@ const projects = [
     {
         nome: "CV-maker",
         foto: cv,
-        description: "Aplicação-web que permite criar e exportar o seu currículo.",
+        description: "Aplicação-web que permite criar o seu currículo.",
         link: "https://overflow68.github.io/CV-app"
 
     },
@@ -43,13 +42,6 @@ const projects = [
         foto: calculadora,
         description: "Calculadora básica que cobre todas as operações.",
         link: "https://overflow68.github.io/Calculator2"
-
-    },
-    {
-        nome: "Sistema de login",
-        foto: myGram,
-        description: "Sistema de login com interface baseada no Instagram.",
-        link: "https://overflow68.github.io/My-Gram"
 
     },
     {

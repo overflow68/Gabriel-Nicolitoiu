@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Gabriel-Nicolitoiu/static/css/main.51055ed9.chunk.css",
-    "main.js": "/Gabriel-Nicolitoiu/static/js/main.439ced7d.chunk.js",
-    "main.js.map": "/Gabriel-Nicolitoiu/static/js/main.439ced7d.chunk.js.map",
+    "main.js": "/Gabriel-Nicolitoiu/static/js/main.f9d7ad58.chunk.js",
+    "main.js.map": "/Gabriel-Nicolitoiu/static/js/main.f9d7ad58.chunk.js.map",
     "runtime-main.js": "/Gabriel-Nicolitoiu/static/js/runtime-main.574021b0.js",
     "runtime-main.js.map": "/Gabriel-Nicolitoiu/static/js/runtime-main.574021b0.js.map",
     "static/js/2.f116c1cb.chunk.js": "/Gabriel-Nicolitoiu/static/js/2.f116c1cb.chunk.js",
@@ -12,7 +12,7 @@
     "static/js/2.f116c1cb.chunk.js.LICENSE.txt": "/Gabriel-Nicolitoiu/static/js/2.f116c1cb.chunk.js.LICENSE.txt",
     "static/media/battleship.cf55f672.png": "/Gabriel-Nicolitoiu/static/media/battleship.cf55f672.png",
     "static/media/buddies.915f3bfe.png": "/Gabriel-Nicolitoiu/static/media/buddies.915f3bfe.png",
-    "static/media/calculadora.3997a1f8.png": "/Gabriel-Nicolitoiu/static/media/calculadora.3997a1f8.png",
+    "static/media/calculadora.1073bf4e.png": "/Gabriel-Nicolitoiu/static/media/calculadora.1073bf4e.png",
     "static/media/card-game.47ee0814.png": "/Gabriel-Nicolitoiu/static/media/card-game.47ee0814.png",
     "static/media/collectibles.954fc71f.png": "/Gabriel-Nicolitoiu/static/media/collectibles.954fc71f.png",
     "static/media/css.6e6576d7.png": "/Gabriel-Nicolitoiu/static/media/css.6e6576d7.png",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.574021b0.js",
     "static/js/2.f116c1cb.chunk.js",
     "static/css/main.51055ed9.chunk.css",
-    "static/js/main.439ced7d.chunk.js"
+    "static/js/main.f9d7ad58.chunk.js"
   ]
 }
