@@ -27,7 +27,7 @@ const projects = [
         nome: "Jogo de memória",
         foto: cardGame,
         description: "Um jogo de memória baseado na seleção portuguesa de futebol",
-        link: "https://overflow68.github.io/memory-game"
+        link: "https://overflow68.github.io/memory-card"
 
     },
     {

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Gabriel-Nicolitoiu/static/css/main.51055ed9.chunk.css",
-    "main.js": "/Gabriel-Nicolitoiu/static/js/main.f9d7ad58.chunk.js",
-    "main.js.map": "/Gabriel-Nicolitoiu/static/js/main.f9d7ad58.chunk.js.map",
+    "main.js": "/Gabriel-Nicolitoiu/static/js/main.7245b0b1.chunk.js",
+    "main.js.map": "/Gabriel-Nicolitoiu/static/js/main.7245b0b1.chunk.js.map",
     "runtime-main.js": "/Gabriel-Nicolitoiu/static/js/runtime-main.574021b0.js",
     "runtime-main.js.map": "/Gabriel-Nicolitoiu/static/js/runtime-main.574021b0.js.map",
     "static/js/2.f116c1cb.chunk.js": "/Gabriel-Nicolitoiu/static/js/2.f116c1cb.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/battleship.cf55f672.png": "/Gabriel-Nicolitoiu/static/media/battleship.cf55f672.png",
     "static/media/buddies.915f3bfe.png": "/Gabriel-Nicolitoiu/static/media/buddies.915f3bfe.png",
     "static/media/calculadora.1073bf4e.png": "/Gabriel-Nicolitoiu/static/media/calculadora.1073bf4e.png",
-    "static/media/card-game.47ee0814.png": "/Gabriel-Nicolitoiu/static/media/card-game.47ee0814.png",
+    "static/media/card-game.dfe3d398.png": "/Gabriel-Nicolitoiu/static/media/card-game.dfe3d398.png",
     "static/media/collectibles.954fc71f.png": "/Gabriel-Nicolitoiu/static/media/collectibles.954fc71f.png",
     "static/media/css.6e6576d7.png": "/Gabriel-Nicolitoiu/static/media/css.6e6576d7.png",
     "static/media/cv-app.7b335267.png": "/Gabriel-Nicolitoiu/static/media/cv-app.7b335267.png",
@@ -21,7 +21,6 @@
     "static/media/html.bdadec79.png": "/Gabriel-Nicolitoiu/static/media/html.bdadec79.png",
     "static/media/icp1.ad2ed786.png": "/Gabriel-Nicolitoiu/static/media/icp1.ad2ed786.png",
     "static/media/masterbg.452bc633.png": "/Gabriel-Nicolitoiu/static/media/masterbg.452bc633.png",
-    "static/media/my-gram.6ba285aa.png": "/Gabriel-Nicolitoiu/static/media/my-gram.6ba285aa.png",
     "static/media/npm.e451d487.png": "/Gabriel-Nicolitoiu/static/media/npm.e451d487.png",
     "static/media/pc.e5c003b9.png": "/Gabriel-Nicolitoiu/static/media/pc.e5c003b9.png",
     "static/media/react1.20adfb35.png": "/Gabriel-Nicolitoiu/static/media/react1.20adfb35.png",
@@ -33,6 +32,6 @@
     "static/js/runtime-main.574021b0.js",
     "static/js/2.f116c1cb.chunk.js",
     "static/css/main.51055ed9.chunk.css",
-    "static/js/main.f9d7ad58.chunk.js"
+    "static/js/main.7245b0b1.chunk.js"
   ]
 }
