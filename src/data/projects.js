@@ -45,13 +45,6 @@ const projects = [
 
     },
     {
-        nome: "Speed-typing",
-        foto: speed,
-        description: "Uma aplicação que permite praticar a rapidez de escrita.",
-        link: "https://overflow68.github.io/speed-typing"
-
-    },
-    {
         nome: "Carrinho de compras",
         foto: shop,
         description: "Template de um website de venda de artigos de moda.",
